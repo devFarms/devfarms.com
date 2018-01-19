@@ -1,0 +1,23 @@
+{
+  "name": "devfarms.com",
+  "version": "0.0.1",
+  "description": "devFarms Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devFarms/devfarms.com.git"
+  },
+  "dependencies": {
+    "express": "*",
+    "express-handlebars": "*"
+  },
+  "author": "bitFarmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devFarms/devfarms.com/issues"
+  },
+  "homepage": "https://github.com/devFarms/devfarms.com#readme"
+}
