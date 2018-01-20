@@ -1,0 +1,69 @@
+/* Styles */
+  html,body {
+  height:100%;
+  margin:0;
+}
+
+.content {
+  height:100%;
+  min-height:100%; /*for mozilla*/
+
+}
+
+html>body .content {
+  height:auto;
+}
+
+#first {
+  background: rgba(34, 46, 80, 1);
+  padding-top: 200px;
+  padding-bottom: -200px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+}
+
+#second {
+  background: rgba(0, 121, 145, 1);
+  padding-top: 200px;
+  padding-bottom: -200px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+}
+
+#third {
+  background: rgba(67, 154, 134, 1);
+  padding-top: 200px;
+  padding-bottom: -200px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+}
+
+#fourth {
+  background: rgba(188, 216, 193, 1);
+  padding-top: 200px;
+  padding-bottom: -200px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+}
+
+#fifth {
+  background: rgba(230, 232, 230, 1);
+  padding-top: 200px;
+  padding-bottom: -200px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+}
+
+#footer {
+  background: rgb(148, 232, 238);
+  padding-top: 200px;
+  padding-bottom: -200px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+}
