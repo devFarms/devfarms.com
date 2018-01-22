@@ -12,7 +12,7 @@ app.set("view engine", "handlebars");
 app.set("port", (process.env.PORT || 3000));
 
 app.get("/", function(req, res){
-    res.render("home");
+    res.render("one");
 });
 
 app.listen(app.get("port"), function(){
