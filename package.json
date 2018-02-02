@@ -11,8 +11,7 @@
     "url": "git+https://github.com/devFarms/devfarms.com.git"
   },
   "dependencies": {
-    "express": "*",
-    "express-handlebars": "*"
+    "express": "*"
   },
   "author": "bitFarmer",
   "license": "ISC",
