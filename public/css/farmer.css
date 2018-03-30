@@ -13,30 +13,41 @@ html,body {
   padding-left: 15%;
   padding-right: 15%;
   text-align: center;
+  position: relative;
+  color: rgb(255,255,255);
+  width: 100%;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
 }
 
 #first {
-  background: rgba(34, 46, 80, 1);
-  color: #dccfd3;
+  /* background: rgba(34, 46, 80, 1);
+  color: #dccfd3; */
   margin: 0;
 }
 
 #second {
-  background: rgba(0, 121, 145, 1);
-  color: #dccfd3;
+  /* background: rgba(0, 121, 145, 1);
+  color: #dccfd3; */
   margin: 0;
 }
 
 #third {
-  background: rgba(67, 154, 134, 1);
+  /* background: rgba(67, 154, 134, 1); */
 }
 
 #fourth {
-  background: rgba(188, 216, 193, 1);
+  /* background: rgba(188, 216, 193, 1); */
 }
 
 #fifth {
-  background: rgba(230, 232, 230, 1);
+  /* background: rgba(230, 232, 230, 1); */
 }
 
 #footer {
