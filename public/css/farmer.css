@@ -1,17 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Lato|Paytone+One');
+/*
+font-family: 'Fugaz One', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Paytone One', sans-serif;
+*/
 
 html,body {
   height: 100%;
   margin: 0;
 }
 
+h1 {
+  font-family: 'Paytone One', sans-serif;
+}
+
+h2, h3, h4 {
+  font-family: 'Lato', sans-serif;
+}
+
 .content {
   color: rgb(255,255,255);
-  font-size: 200%;
+  font-family: 'Lato', sans-serif;
+  font-size: 150%;
   height: 100%;
   margin-bottom: 200px;
   min-height: 100%; /*for mozilla*/
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 100px;
   position: relative;
   text-align: center;
@@ -50,12 +65,24 @@ html,body {
   /* background: rgba(230, 232, 230, 1); */
 }
 
-#nav {
-  background: rgb(3, 150, 125);
+nav {
+  background: rgba(65, 143, 167,0.5);
+  font-family: 'Fugaz One', cursive;
+  font-size: 200%;
+  padding: 0 100px;
+}
+
+nav .brand-logo {
+  font-family: 'Fugaz One', cursive;
 }
 
 #footer {
   background: rgb(3, 150, 125);
+  padding-top: 50px;
   position: relative;
 }
 
+.logo {
+  font-family: 'Fugaz One', cursive;
+  font-size: 300%;
+}
