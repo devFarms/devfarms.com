@@ -1,74 +1,108 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>materialize test</title>
-        <!-- Compiled and minified CSS -->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-        <link rel="stylesheet" href="css/farmer.css">
+
+<head>
+    <title>materialize test</title>
+    <!-- Compiled and minified CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/farmer.css">
 </head>
 
 <body>
-
-        <video autoplay muted loop id="myVideo">
-                <source src="video/bg.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-        </video>
-
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" onClick="firstSection()" class="brand-logo center">Logo</a>
+                <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a href="#" onClick="secondSection()">Services</a></li>
+                    <li><a href="#" onClick="thirdSection()">Work</a></li>
+                </ul>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#" onClick="fourthSection()">About</a></li>
+                    <li><a href="#" onClick="fifthSection()">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <video autoplay muted loop id="myVideo">
+        <source src="video/bg.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+    </video>
     <div class="content" id="first">
-            <h1>Basic Page - Static Content</h1>
-            <h2>Heading Two</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <a class="btn" onClick="secondSection()">next<i class="material-icons right">expand_more</i></a>
-
+        <h1>Basic Page - Static Content</h1>
+        <h2>Heading Two</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a class="btn" onClick="secondSection()">next<i class="material-icons right">expand_more</i></a>
     </div>
     <div class="content" id="second">
-            <h2>Dynamic Content</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <a class="btn" onClick="thirdSection()">next<i class="material-icons right">expand_more</i></a>
-            <a class="btn" onClick="firstSection()">back to top<i class="material-icons right">expand_less</i></a>
-
+        <h2>Services</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a class="btn" onClick="thirdSection()">next<i class="material-icons right">expand_more</i></a>
+        <a class="btn" onClick="firstSection()">back to top<i class="material-icons right">expand_less</i></a>
     </div>
     <div class="content" id="third">
-            <h2>Entering Data</h2>  
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <a class="btn" onClick="fourthSection()">next<i class="material-icons right">expand_more</i></a>
-            <a class="btn" onClick="firstSection()">back to top<i class="material-icons right">expand_less</i></a>
-
+        <h2>Work and Resume</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <ul>
+            <li>City of Santa Ana</li>
+            <ul>
+                <li>Homelessness Page</li>
+            </ul>
+            <li>A Place for Art</li>
+            <li>SEIU 721 Santa Ana Chapter</li>
+            <li>el Fenix</li>
+            <li>SAAS</li>
+            <li>OC Food Access</li>
+        </ul>
+        <a class="btn" onClick="fourthSection()">next<i class="material-icons right">expand_more</i></a>
+        <a class="btn" onClick="firstSection()">back to top<i class="material-icons right">expand_less</i></a>
     </div>
     <div class="content" id="fourth">
-            <h2>Heading Two</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <a class="btn" onClick="fifthSection()">next<i class="material-icons right">expand_more</i></a>
-            <a class="btn" onClick="firstSection()">back to top<i class="material-icons right">expand_less</i></a>
-
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <ul>
+            <li>SAAS</li>
+            <li>Frida Cinema</li>
+            <li>SEIU</li>
+        </ul>
+        <a class="btn" onClick="fifthSection()">next<i class="material-icons right">expand_more</i></a>
+        <a class="btn" onClick="firstSection()">back to top<i class="material-icons right">expand_less</i></a>
     </div>
     <div class="content" id="fifth">
-            <h2>Heading Two</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-            <a class="btn" onClick="firstSection()">back to top<i class="material-icons right">expand_less</i></a>
-
+        <h2>Contact</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a class="btn" onClick="firstSection()">back to top<i class="material-icons right">expand_less</i></a>
     </div>
-    <div class="content" id="footer">
-            <h2>Heading Two</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-
+    <footer class="page-footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12" onClick="firstSection()">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!" onClick="secondSection()">Services</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!" onClick="thirdSection()">Work</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!" onClick="fourthSection()">About</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!" onClick="fifthSection()">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2018 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
     <!-- JQuery script -->
     <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="/js/logic.js"></script>
 </body>
 
 </html>
-
-
-
-
