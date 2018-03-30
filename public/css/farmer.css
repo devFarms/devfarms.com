@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Lato|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Lato|Paytone+One');
 /*
-font-family: 'Montserrat', sans-serif;
 font-family: 'Fugaz One', cursive;
 font-family: 'Lato', sans-serif;
+font-family: 'Paytone One', sans-serif;
 */
 
 html,body {
@@ -11,7 +11,7 @@ html,body {
 }
 
 h1 {
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Paytone One', sans-serif;
 }
 
 h2, h3, h4 {
