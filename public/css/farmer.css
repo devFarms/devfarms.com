@@ -86,3 +86,12 @@ nav .brand-logo {
   font-family: 'Fugaz One', cursive;
   font-size: 300%;
 }
+
+.card {
+  background: rgba(65, 143, 167,0.5);
+  color: rgb(255,255,255);
+}
+
+.card .card-image {
+  font-size: 160px;
+}
