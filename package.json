@@ -11,6 +11,7 @@
     "url": "git+https://github.com/devFarms/devfarms.com.git"
   },
   "dependencies": {
+    "axios": "^0.17.1",
     "express": "*"
   },
   "author": "bitFarmer",
