@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?n89l9o');
+  src:  url('fonts/icomoon.eot?n89l9o#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?n89l9o') format('truetype'),
+    url('fonts/icomoon.woff?n89l9o') format('woff'),
+    url('fonts/icomoon.svg?n89l9o#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pen:before {
+  content: "\e908";
+}
+.icon-camera:before {
+  content: "\e90f";
+}
+.icon-film:before {
+  content: "\e913";
+}
+.icon-lifebuoy:before {
+  content: "\e941";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-mobile2:before {
+  content: "\e959";
+}
+.icon-database:before {
+  content: "\e964";
+}
+.icon-bubble:before {
+  content: "\e96b";
+}
+.icon-bubbles:before {
+  content: "\e96c";
+}
+.icon-quotes-left:before {
+  content: "\e977";
+}
+.icon-quotes-right:before {
+  content: "\e978";
+}
+.icon-wrench:before {
+  content: "\e991";
+}
+.icon-stats-dots:before {
+  content: "\e99b";
+}
+.icon-tree:before {
+  content: "\e9bc";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+.icon-checkmark2:before {
+  content: "\ea11";
+}
+.icon-terminal:before {
+  content: "\ea81";
+}
+.icon-amazon:before {
+  content: "\ea87";
+}
+.icon-google-drive:before {
+  content: "\ea8f";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-rss:before {
+  content: "\ea9b";
+}
+.icon-flickr3:before {
+  content: "\eaa5";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-wordpress:before {
+  content: "\eab4";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon-chrome:before {
+  content: "\ead9";
+}
+.icon-file-pdf:before {
+  content: "\eadf";
+}
+.icon-file-excel:before {
+  content: "\eae2";
+}
+.icon-html-five:before {
+  content: "\eae4";
+}
+.icon-html-five2:before {
+  content: "\eae5";
+}
+.icon-css3:before {
+  content: "\eae6";
+}
+.icon-git:before {
+  content: "\eae7";
+}
