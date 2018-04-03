@@ -2,16 +2,22 @@
 <html>
 
 <head>
-    <title>devfarms... </title>
-    <!-- Compiled and minified CSS -->
+    <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!--Let browser know website is optimized for mobile-->
     <!-- icomoon -->
     <link rel="stylesheet" href="icomoon/style.css">
     <link rel="stylesheet" href="css/farmer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
+    <!-- The video -->
+    <video autoplay muted loop id="bgVideo">
+        <source src="video/bg.mp4" type="video/mp4">
+    </video>
     <div class="navbar-fixed">
         <nav>
             <div class="nav-wrapper">
@@ -27,142 +33,171 @@
             </div>
         </nav>
     </div>
-    <video autoplay muted loop id="myVideo">
-        <source src="video/bg.mp4" type="video/mp4"> Your browser does not support HTML5 video.
-    </video>
-    <div class="container">
-        <div class="content" id="first">
-            <div class="row">
-                <div class="col s12 m4">
-                    &lt; df &gt;
-                </div>
-                <div class- "col s12 m8">
-                    <h1>cultivating your bits...</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
-            <a class="btn" onClick="secondSection()">next<i class="material-icons right">expand_more</i></a>
-        </div>
-        <div class="content" id="second">
-            <div class="row">
-                <div class="col s12">
-                    <h2>Services</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col m12 l4">
-                    <div class="card">
-                        <div class="card-image">
-                            <span class="icon-terminal"></span>
-                        </div>
-                        <div class="card-content">
-                            <h3>Web Development</h3>
-                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col m12 l4">
-                    <div class="card">
-                        <div class="card-image">
-                            <span class="icon-display"></span>
-                        </div>
-                        <div class="card-content">
-                            <h3>UI / UX Site Design</h3>
-                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col m12 l4">
-                    <div class="card">
-                        <div class="card-image">
-                            <span class="icon-database"></span>
-                        </div>
-                        <div class="card-content">
-                            <h3>Site Management</h3>
-                            <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="#">This is a link</a>
-                        </div>
+    <div id="content-wrapper">
+        <div class="section" id="intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h1>Page Title</h1>
+                        <h2>Intro Section</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="content" id="third">
-            <div class="row">
-                <div class="col s12">
-                    <h2>Work and Resume</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <div class="experience">
-                        <h3>Experience</h3>
-                        <p class="date">January 2000 - Present</p>
-                        <p class="position">Web Systems Technician (Webmaster)</p>
-                        <ul class="duties">
-                            <li>Oversaw all web design projects from concept to completion, ensuring all objectives were met.</li>
-                            <li>Responsible for project management and day to day production schedules. Setting priorities for project coordinator and web development team.</li>
-                            <li>Communication with client on all aspects of development process.</li>
-                            <li>Providing direction and support for Junior Web Designers &amp; Developers.</li>
-                            <li>Budget planning and decision making with management team.</li>
-                            <li>Contributed technical and design knowledge during RFP process, including presentations &amp; sales pitches.</li>
-                            <li>Redeveloped and streamlined company branding.</li>
-                            <li>Oversaw design for all clients, including: wireframing, UI/UX, prototyping, web/social media assets, &amp; print design.</li>
-                            <li>Budget planning and decision making with management team.</li>
-                            <li>Contributed technical and design knowledge during RFP process, including presentations &amp; sales pitches.</li>
-                            <li>Created and managed quality design assets in a fast-paced, production driven environment.</li>
-                            <li>Responsible for email campaign design and deployment.</li>
-                            <li>Designed and developed responsive websites using HTML and CSS.</li>
-                            <li>Implemented complex CMS solutions for large scale clients.</li>
-                            <li>Managed daily website content updates.</li>
-                            <li>Worked directly with clients and sales to design/develop effective marketing solutions.</li>
-                            <li>Produced, filmed, and edited product videos for clients.</li>
-                            <li>Converted non-mobile friendly websites to fully responsive designs.</li>
-                            <li>Designed and developed websites for small business clients using HTML and CSS.</li>
-                            <li>Customized CMS solutions for clients using open source software, PHP, and MySql.</li>
-                            <li>Provided clients with detailed, but easy to understand, training.</li>
-                            <li>Designed easy to use and innovated UI/UX solutions.</li>
-                            <li>Worked directly with clients to understand needs and provide customized solutions.</li>
-                        </ul>
+        <div class="section" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h2>Services Section</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <span class="icon-terminal"></span>
+                            </div>
+                            <div class="card-content">
+                                <h3>Web Development</h3>
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <span class="icon-display"></span>
+                            </div>
+                            <div class="card-content">
+                                <h3>UI / UX Site Design</h3>
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">This is a link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <span class="icon-database"></span>
+                            </div>
+                            <div class="card-content">
+                                <h3>Site Management</h3>
+                                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                            </div>
+                            <div class="card-action">
+                                <a href="#">This is a link</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <ul>
-                <li>City of Santa Ana</li>
-                <ul>
-                    <li>Homelessness Page</li>
-                </ul>
-                <li>A Place for Art</li>
-                <li>SEIU 721 Santa Ana Chapter</li>
-                <li>el Fenix</li>
-                <li>SAAS</li>
-                <li>OC Food Access</li>
-            </ul>
-            <h3>Skills</h3>
-
-            <a class="btn" onClick="fourthSection()">next<i class="material-icons right">expand_more</i></a>
-            <a class="btn" onClick="firstSection()">back to top<i class="material-icons right">expand_less</i></a>
         </div>
-        <div class="content" id="fourth">
-            <h2>About</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <ul>
-                <li>SAAS</li>
-                <li>Frida Cinema</li>
-                <li>SEIU</li>
-            </ul>
-            <a class="btn" onClick="fifthSection()">next<i class="material-icons right">expand_more</i></a>
-            <a class="btn" onClick="firstSection()">back to top<i class="material-icons right">expand_less</i></a>
+        <div class="section" id="work-experience">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h2>Work Experience Section</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="content" id="fifth">
-            <h2>Contact</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a class="btn" onClick="firstSection()">back to top<i class="material-icons right">expand_less</i></a>
+        <div class="section" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h2>About Section</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12">
+                        <h2>Contact Section</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ornare libero. Donec nec eleifend magna. Curabitur at sapien orci. Morbi at ipsum sed nisi ultricies iaculis. Maecenas purus sapien, fermentum eu diam eget, semper ullamcorper nisi. Aenean justo enim, pharetra in accumsan vitae, dictum nec purus. Sed vel ex lacinia, scelerisque dolor eu, maximus arcu. Quisque eleifend erat eu congue facilisis. Mauris dignissim euismod ante vitae posuere. Proin tincidunt leo nulla, a pretium velit mollis at. Aenean placerat eros eu blandit tempor.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <footer class="page-footer" id="footer">
@@ -193,8 +228,8 @@
     <!-- JQuery script -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script src="/js/logic.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 </body>
 
 </html>

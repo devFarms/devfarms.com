@@ -18,54 +18,59 @@ h2, h3, h4 {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* Style the video: 100% width and height to cover the entire window */
-video#bgVideo { 
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  background: url(polina.jpg) no-repeat;
-  background-size: cover; 
-}
-
-/* Add some content at the bottom of the video/page */
-#content-wrapper {
+.content {
+  color: rgb(255,255,255);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 150%;
+  height: 100%;
+  margin-bottom: 200px;
+  min-height: 100%; /*for mozilla*/
+  padding-top: 100px;
   position: relative;
-  bottom: 0;
   width: 100%;
 }
 
-#services {
-  background: rgb(255, 0, 0);
-  color: rgb(255,255,255);
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+#intro {
+  /* background: rgba(34, 46, 80, 1);
+  color: #dccfd3; */
+  margin: 0;
+}
+
+#second {
+  /* background: rgba(0, 121, 145, 1);
+  color: #dccfd3; */
+  margin: 0;
+}
+
+#third {
+  /* background: rgba(67, 154, 134, 1); */
 }
 
 #work-experience {
   background: rgb(255,255,255);
-  color: rgb(32, 32, 32))
+  border: 10px solid black;
+  color: #20b2aa;
 }
 
-.section {
-  padding: 100px 0;
+#fourth {
+  /* background: rgba(188, 216, 193, 1); */
+}
+
+#fifth {
+  /* background: rgba(230, 232, 230, 1); */
 }
 
 .brand-logo {
   font-family: 'Fugaz One', cursive;
   font-size: 300%;
-}
-
-/* Mods to Materialize */
-
-.row {
-  margin-bottom: 0;
 }
 
 nav {
@@ -85,7 +90,12 @@ nav .brand-logo {
   position: relative;
 }
 
+
+
 .card {
+  background: rgba(65, 143, 167,0.5);
+  /* border: 2px solid rgb(255,255,255); */
+  color: rgb(255,255,255);
   font-size: 80%;
 }
 
@@ -104,3 +114,4 @@ nav .brand-logo {
   margin-top: 0;
   padding-top: 0;
 }
+
