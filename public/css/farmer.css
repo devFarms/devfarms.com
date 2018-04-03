@@ -5,7 +5,17 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Paytone One', sans-serif;
 */
 
+/* 
+
+dark blue: 47,72,88
+light blue: 85,221,224
+mustard: 246,174,45
+orange: 242,100,25
+
+*/
+
 html,body {
+  font-size: 90%;
   height: 100%;
   margin: 0;
 }
@@ -16,6 +26,15 @@ h1 {
 
 h2, h3, h4 {
   font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 200%;
+  line-height: 125%;
 }
 
 /* Style the video: 100% width and height to cover the entire window */
@@ -44,12 +63,12 @@ video#bgVideo {
 }
 
 #services {
-  background: rgb(255, 0, 0);
-  color: rgb(255,255,255);
+  background: rgb(47, 72, 88);
+  color: rgb(255, 255, 255);
 }
 
 #work-experience {
-  background: rgb(255,255,255);
+  background: rgb(255, 255, 255);
   color: rgb(32, 32, 32))
 }
 
@@ -59,7 +78,7 @@ video#bgVideo {
 
 .brand-logo {
   font-family: 'Fugaz One', cursive;
-  font-size: 300%;
+  font-size: 600%;
 }
 
 /* Mods to Materialize */
@@ -86,6 +105,7 @@ nav .brand-logo {
 }
 
 .card {
+  background: rgba(85, 221, 224, 0.1);
   font-size: 80%;
 }
 
