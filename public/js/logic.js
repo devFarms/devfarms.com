@@ -1,6 +1,6 @@
-function secondSection(){
+function servicesSection(){
     $("html,body").animate({
-        scrollTop: $("#second").offset().top},
+        scrollTop: $("#services").offset().top},
         "slow");
 };
 
