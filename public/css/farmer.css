@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Lato|Paytone+One');
+@import url('https://fonts.googleapis.com/css?family=Fugaz+One|Open+Sans|Paytone+One');
 /*
 font-family: 'Fugaz One', cursive;
-font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
 font-family: 'Paytone One', sans-serif;
 */
 
@@ -15,12 +15,12 @@ h1 {
 }
 
 h2, h3, h4 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .content {
   color: rgb(255,255,255);
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 150%;
   height: 100%;
   margin-bottom: 200px;
@@ -97,7 +97,7 @@ nav .brand-logo {
 }
 
 .card h3 {
-  font-size: 32px;
+  font-size: 30px;
   margin: 0;
   padding: 0;
 }
@@ -109,5 +109,10 @@ nav .brand-logo {
 
 .collapsible li {
   background: rgba(65, 143, 167,0.5);
-  color: red;
+  color: rgb(255,255,255);
+}
+
+.collapsible-header {
+  background: rgba(65, 143, 167,0.9);
+  color: rgb(255,255,255);
 }
