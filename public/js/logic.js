@@ -22,8 +22,8 @@ function fifthSection(){
         "slow");
 };
 
-function firstSection(){
+function introSection(){
     $("html,body").animate({
-        scrollTop: $("#first").offset().top},
+        scrollTop: $("#intro").offset().top},
         "slow");
 };
