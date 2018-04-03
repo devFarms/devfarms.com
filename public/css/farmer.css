@@ -7,35 +7,18 @@ font-family: 'Paytone One', sans-serif;
 
 /* 
 
-dark blue: 47,72,88
-light blue: 85,221,224
-mustard: 246,174,45
-orange: 242,100,25
+dark blue: 47, 72, 88
+light blue: 85, 221, 224
+mustard: 246, 174, 45
+orange: 242, 100, 25
 
 */
 
 html,body {
-  font-size: 90%;
   height: 100%;
   margin: 0;
 }
 
-h1 {
-  font-family: 'Paytone One', sans-serif;
-}
-
-h2, h3, h4 {
-  font-family: 'Open Sans', sans-serif;
-}
-h1, h2, h3, h4 {
-  margin: 0;
-  padding: 0;
-}
-
-p {
-  font-size: 200%;
-  line-height: 125%;
-}
 
 /* Style the video: 100% width and height to cover the entire window */
 video#bgVideo { 
@@ -62,6 +45,33 @@ video#bgVideo {
   width: 100%;
 }
 
+#intro-services {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 90px 100vw 0 0;
+  border-color: transparent rgb(47, 72, 88) transparent transparent;
+  transform: scale(1.0001);
+}
+
+#services-work {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 90px 100vw 0 0;
+  border-color: rgb(47, 72, 88) rgb(255, 255, 255) transparent transparent;
+  transform: scale(1.0001);
+}
+
+#work-about {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 90px 100vw 0 0;
+  border-color: rgb(255, 255, 255) transparent transparent transparent;
+  transform: scale(1.0001);
+}
+
 #services {
   background: rgb(47, 72, 88);
   color: rgb(255, 255, 255);
@@ -69,7 +79,7 @@ video#bgVideo {
 
 #work-experience {
   background: rgb(255, 255, 255);
-  color: rgb(32, 32, 32))
+  color: rgb(82, 82, 82);
 }
 
 .section {
@@ -78,8 +88,9 @@ video#bgVideo {
 
 .brand-logo {
   font-family: 'Fugaz One', cursive;
-  font-size: 600%;
 }
+
+
 
 /* Mods to Materialize */
 
@@ -90,7 +101,6 @@ video#bgVideo {
 nav {
   background: rgba(65, 143, 167,0.5);
   font-family: 'Fugaz One', cursive;
-  font-size: 200%;
   padding: 0 100px;
 }
 
@@ -106,18 +116,11 @@ nav .brand-logo {
 
 .card {
   background: rgba(85, 221, 224, 0.1);
-  font-size: 80%;
 }
 
 .card .card-image {
-  font-size: 140px;
+  font-size: 75px;
   text-align: center;
-}
-
-.card h3 {
-  font-size: 30px;
-  margin: 0;
-  padding: 0;
 }
 
 .card .card-content {

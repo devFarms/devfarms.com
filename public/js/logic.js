@@ -4,9 +4,9 @@ function servicesSection(){
         "slow");
 };
 
-function thirdSection(){
+function workExperienceSection(){
     $("html,body").animate({
-        scrollTop: $("#third").offset().top},
+        scrollTop: $("#work-experience").offset().top},
         "slow");
 };
 
