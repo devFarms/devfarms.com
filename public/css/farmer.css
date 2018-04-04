@@ -100,8 +100,43 @@ video#bgVideo {
 
 #work-experience {
   background: rgb(255, 255, 255);
-  color: rgb(82, 82, 82);
+  color: rgb(150, 150, 150);
 }
+#work-experience table, td {
+  padding: 20px;
+  vertical-align: top;
+}
+#work-experience h2 {
+  font-size: 220%;
+}
+#work-experience h3 {
+  color: rgb(242, 100, 25);
+  font-family: 'Paytone One', sans-serif;
+  font-size: 140%;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+#work-experience ul {
+  margin: 0;
+  padding: 0;
+}
+#work-experience li {
+  padding: 0 0 10px 0;
+}
+#work-experience li:before {
+  color: rgb(242, 100, 25);
+  content: "\25E5";
+  padding: 0 20px 0 0;
+}
+
+.organization, .date {
+  color: rgb(160, 160, 160);
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 
 .section {
   padding: 100px 0;
