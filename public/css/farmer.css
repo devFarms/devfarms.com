@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Fugaz+One|Open+Sans|Paytone+One');
 /*
+- Fonts
 font-family: 'Fugaz One', cursive;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Paytone One', sans-serif;
-*/
 
-/* 
-
+- Colors
 dark blue: 47, 72, 88
 light blue: 85, 221, 224
 mustard: 246, 174, 45
@@ -19,6 +18,9 @@ html,body {
   margin: 0;
 }
 
+p {
+  font-size: 150%;
+}
 
 /* Style the video: 100% width and height to cover the entire window */
 video#bgVideo { 
@@ -43,6 +45,25 @@ video#bgVideo {
   position: relative;
   bottom: 0;
   width: 100%;
+}
+
+#intro {
+  color: rgb(255, 255, 255);
+  font-size: 120%;
+  text-shadow: 1px 1px rgb(0, 0, 0);
+}
+#intro .brand-logo {
+  font-size: 12vw;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#intro h3 {
+  font-size: 3vw;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 #intro-services {
@@ -116,14 +137,20 @@ nav .brand-logo {
 
 .card {
   background: rgba(85, 221, 224, 0.1);
+  padding-top: 20px;
 }
 
 .card .card-image {
-  font-size: 75px;
+  font-size: 10vw;
   text-align: center;
 }
 
 .card .card-content {
+  font-size: 80%;
   margin-top: 0;
   padding-top: 0;
+}
+
+.card-content h3 {
+  font-size: 200%;
 }
