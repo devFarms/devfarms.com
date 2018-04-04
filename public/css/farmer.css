@@ -11,6 +11,10 @@ light blue: 85, 221, 224
 mustard: 246, 174, 45
 orange: 242, 100, 25
 
+video gradient
+green: 170, 248, 188
+blue: 132, 191, 237
+
 */
 
 html,body {
@@ -93,6 +97,15 @@ video#bgVideo {
   transform: scale(1.0001);
 }
 
+#about-contact {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 90px 100vw 0 0;
+  border-color: transparent rgb(100, 100, 100) transparent transparent;
+  transform: scale(1.0001);
+}
+
 #services {
   background: rgb(47, 72, 88);
   color: rgb(255, 255, 255);
@@ -137,6 +150,10 @@ video#bgVideo {
   padding: 0;
 }
 
+#contact {
+  background: rgb(100, 100, 100);
+  color: rgb(200, 200, 200);
+}
 
 .section {
   padding: 100px 0;
