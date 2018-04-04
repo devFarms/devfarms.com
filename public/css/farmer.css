@@ -57,14 +57,14 @@ video#bgVideo {
   text-shadow: 1px 1px rgb(0, 0, 0);
 }
 #intro .brand-logo {
-  font-size: 12vw;
+  font-size: 125px;
   margin: 0;
   padding: 0;
   text-align: center;
 }
 
 #intro h3 {
-  font-size: 3vw;
+  font-size: 25px;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -103,6 +103,15 @@ video#bgVideo {
   border-style: solid;
   border-width: 90px 100vw 0 0;
   border-color: transparent rgb(100, 100, 100) transparent transparent;
+  transform: scale(1.0001);
+}
+
+#contact-footer {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 90px 100vw 0 0;
+  border-color: rgb(100, 100, 100) rgb(85, 221, 224) transparent transparent;
   transform: scale(1.0001);
 }
 
@@ -163,7 +172,12 @@ video#bgVideo {
   font-family: 'Fugaz One', cursive;
 }
 
-
+.profile-pic {
+  border-radius: 100px;
+  float: left;
+  margin: 20px;
+  width: 200px;
+}
 
 /* Mods to Materialize */
 
@@ -182,9 +196,16 @@ nav .brand-logo {
 }
 
 #footer {
-  background: rgb(3, 150, 125);
+  background: rgb(85, 221, 224);
+  color: rgb(10, 75, 112);
   padding-top: 50px;
   position: relative;
+}
+
+#footer h5 {
+  color: rgb(255, 255, 255);
+  font-size: 400%;
+  text-shadow: 1px 1px rgb(10, 75, 112);
 }
 
 .card {
@@ -206,3 +227,8 @@ nav .brand-logo {
 .card-content h3 {
   font-size: 200%;
 }
+
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+    color: #000;
+  }

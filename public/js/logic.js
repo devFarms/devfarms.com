@@ -10,15 +10,15 @@ function workExperienceSection(){
         "slow");
 };
 
-function fourthSection(){
+function aboutSection(){
     $("html,body").animate({
-        scrollTop: $("#fourth").offset().top},
+        scrollTop: $("#about").offset().top},
         "slow");
 };
 
-function fifthSection(){
+function contactSection(){
     $("html,body").animate({
-        scrollTop: $("#fifth").offset().top},
+        scrollTop: $("#contact").offset().top},
         "slow");
 };
 
