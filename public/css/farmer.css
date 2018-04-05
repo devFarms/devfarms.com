@@ -56,12 +56,6 @@ video#bgVideo {
   font-size: 120%;
   text-shadow: 1px 1px rgb(0, 0, 0);
 }
-#intro .brand-logo {
-  font-size: 125px;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
 
 #intro h3 {
   font-size: 25px;
@@ -77,6 +71,32 @@ video#bgVideo {
   border-width: 90px 100vw 0 0;
   border-color: transparent rgb(47, 72, 88) transparent transparent;
   transform: scale(1.0001);
+}
+
+.logo-tagline {
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Fugaz One', cursive;
+}
+
+#intro .logo-tagline h2 {
+
+  font-size: 125px;
+  margin: 0;
+  padding: 0;
+}
+
+.sidenav .logo-tagline h2 {
+  font-size: 90px;
+  margin: 0;
+  padding: 0;
+}
+.sidenav .logo-tagline h3 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
 
 #services-work {
@@ -216,15 +236,31 @@ nav .brand-logo {
 
 #footer {
   background: rgb(85, 221, 224);
-  color: rgb(10, 75, 112);
+  color: rgb(255, 255, 255);
   padding-top: 50px;
   position: relative;
 }
 
-#footer h5 {
+#footer a {
   color: rgb(255, 255, 255);
-  font-size: 400%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
   text-shadow: 1px 1px rgb(10, 75, 112);
+}
+
+#footer .logo-tagline h2 {
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  text-shadow: 1px 1px rgb(10, 75, 112);
+}
+#footer .logo-tagline h3 {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  text-shadow: 1px 1px rgb(0, 0, 0);
 }
 
 .card {
@@ -255,7 +291,7 @@ nav .brand-logo {
 .menu-logo {
   background-color: rgb(80, 80, 80);
   font-size: 600%;
-  padding: 50px 0;
+  padding: 50px 0 0 0;
   text-align: center;
 }
 .sidenav li a {
