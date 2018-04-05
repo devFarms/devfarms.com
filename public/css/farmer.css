@@ -115,6 +115,16 @@ video#bgVideo {
   transform: scale(1.0001);
 }
 
+#menu-list {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 90px 100vw 0 0;
+  border-color: rgb(80, 80, 80) rgb(100, 100, 100) transparent transparent;
+  transform: scale(1.0001);
+  margin-bottom: 50px;
+}
+
 #services {
   background: rgb(47, 72, 88);
   color: rgb(255, 255, 255);
@@ -244,16 +254,15 @@ nav .brand-logo {
 }
 .menu-logo {
   background-color: rgb(80, 80, 80);
-  border-bottom: 3px solid rgb(200, 200, 200);
   font-size: 600%;
-  margin-bottom: 30px;
   padding: 50px 0;
   text-align: center;
 }
 .sidenav li a {
   color: rgb(200, 200, 200);
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Open Sans', sans-serif;
   font-size: 200%;
+  font-style: italic;
 }
 .sidenav-overlay {
   /* background-color: transparent; */
