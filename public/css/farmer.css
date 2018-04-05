@@ -159,6 +159,15 @@ video#bgVideo {
   padding: 0;
 }
 
+.date {
+  padding-bottom: 30px;
+}
+
+.job-desc {
+  border-bottom: 1px solid rgb(200, 200, 200);
+  padding: 40px 0;
+}
+
 #contact {
   background: rgb(100, 100, 100);
   color: rgb(200, 200, 200);
