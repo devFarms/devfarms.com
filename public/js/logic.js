@@ -27,3 +27,9 @@ function introSection(){
         scrollTop: $("#intro").offset().top},
         "slow");
 };
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });

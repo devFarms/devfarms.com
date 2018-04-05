@@ -22,6 +22,7 @@
         <nav>
             <div class="nav-wrapper">
                 <a href="#" onClick="introSection()" class="brand-logo center">&lt; df &gt;</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="left hide-on-med-and-down">
                     <li><a href="#" onClick="servicesSection()">Services</a></li>
                     <li><a href="#" onClick="workExperienceSection()">Work</a></li>
@@ -32,6 +33,12 @@
                 </ul>
             </div>
         </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#" onClick="servicesSection()">Services</a></li>
+            <li><a href="#" onClick="workExperienceSection()">Work</a></li>
+            <li><a href="#" onClick="aboutSection()">About</a></li>
+            <li><a href="#" onClick="contactSection()">Contact</a></li>
+        </ul>
     </div>
     <div id="content-wrapper">
         <div class="section" id="intro">
