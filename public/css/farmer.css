@@ -40,7 +40,7 @@ video#bgVideo {
   -moz-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url(polina.jpg) no-repeat;
+  background: url(../video/bg.png) no-repeat;
   background-size: cover; 
 }
 
@@ -236,6 +236,30 @@ nav .brand-logo {
 .card-content h3 {
   font-size: 200%;
 }
+
+
+.sidenav {
+  background-color: rgba(100, 100, 100);
+  color: rgb(200, 200, 200);
+}
+.menu-logo {
+  background-color: rgb(80, 80, 80);
+  border-bottom: 3px solid rgb(200, 200, 200);
+  font-size: 600%;
+  margin-bottom: 30px;
+  padding: 50px 0;
+  text-align: center;
+}
+.sidenav li a {
+  color: rgb(200, 200, 200);
+  font-family: 'Fugaz One', cursive;
+  font-size: 200%;
+}
+.sidenav-overlay {
+  /* background-color: transparent; */
+  z-index: 1;
+}
+
 
    /* label focus color */
    .input-field input[type=text]:focus + label {
