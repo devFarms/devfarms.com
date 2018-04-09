@@ -269,7 +269,11 @@ nav .brand-logo {
 }
 
 .card .card-image {
-  font-size: 10vw;
+  text-align: center;
+}
+
+.card .card-image .material-icons{
+  font-size: 8vw;
   text-align: center;
 }
 
@@ -305,8 +309,34 @@ nav .brand-logo {
   z-index: 1;
 }
 
+/*** !important was needed for snippet ***/
 
-   /* label focus color */
-   .input-field input[type=text]:focus + label {
-    color: #000;
-  }
+.validate {
+  color: rgb(255, 255, 255);
+}
+.input-field {
+  color: rgb(255, 255, 255);
+}
+
+/* label focus color */
+.input-field input:focus + label {
+  color: rgb(246, 174, 45) !important;
+}
+/* label underline focus color */
+.row .input-field input:focus {
+  border-bottom: 1px solid rgb(246, 174, 45) !important;
+  box-shadow: 0 1px 0 0 rgb(160, 160, 160) !important;
+  color: rgb(255, 255, 255);
+}
+
+.materialize-textarea {
+  color: rgb(255, 255, 255);
+}
+.materialize-textarea:focus + label {
+  color: rgb(246, 174, 45) !important;
+}
+.materialize-textarea:focus {
+  border-bottom: 1px solid rgb(246, 174, 45) !important;
+  box-shadow: 0 1px 0 0 rgb(160, 160, 160) !important;
+  color: rgb(255, 255, 255);
+}
