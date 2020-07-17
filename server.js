@@ -13,7 +13,9 @@ var app = express();
 app.use(express.static("public"));
 
 // Set the app to listen on port 3000
+// For Heroku
 // app.set("port", (process.env.PORT || 3000));
+// For AWS Lightsail
 app.set("port", (80));
 
 app.listen(app.get("port"), function(){
